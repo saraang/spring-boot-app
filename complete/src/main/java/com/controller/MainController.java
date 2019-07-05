@@ -8,7 +8,7 @@ public class MainController {
 
     @RequestMapping("/main")
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "Main Controller!";
     }
 
 }
