@@ -11,4 +11,9 @@ public class HelloController {
         return "Greetings from Spring Boot Application!";
     }
 
+    @RequestMapping("/home")
+    public String index1() {
+        return "Home Controller!";
+    }
+
 }
