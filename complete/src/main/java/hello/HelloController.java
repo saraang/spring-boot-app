@@ -9,7 +9,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "Happy Birthday Hardik";
+        return "<html><head><meta charset='UTF-8'><title>Birthday </title><meta name='viewport' content='width=device-width, initial-scale=1'></head><body><h1 style='font-size:20vw;'>HAPPY BIRTHDAY HARDIK</h1></body></html>";
     }
 
     @RequestMapping("/home")
