@@ -16,7 +16,7 @@ public class HelloController {
 
     @GetMapping("/home")//
     public String home() {
-        return "home";
+        return "home-page";
     }
 
    /* @RequestMapping("/home")//
