@@ -2,7 +2,7 @@ package util;
 import java.io.*;
 import java.lang.*;
 
-class Operation {
+class Operation1 {
 
     static int getMin(int arr[])
     {
